@@ -1,0 +1,8 @@
+## Modman Module Mozg
+app/code/community/Tawk/Widget/ app/code/community/Tawk/Widget/
+app/design/adminhtml/default/default/template/tawk/ app/design/adminhtml/default/default/template/tawk/
+app/design/frontend/base/default/layout/tawkwidget.xml app/design/frontend/base/default/layout/tawkwidget.xml
+app/design/frontend/base/default/template/tawk/ app/design/frontend/base/default/template/tawk/
+app/design/frontend/default/default/layout/tawkwidget.xml app/design/frontend/default/default/layout/tawkwidget.xml
+app/design/frontend/default/default/template/tawk/ app/design/frontend/default/default/template/tawk/
+app/etc/modules/Tawk_Widget.xml app/etc/modules/Tawk_Widget.xml
