@@ -37,28 +37,28 @@ Esta biblioteca destina-se a ser instalado usando o [Composer][getcomposer].
 
 Certique se da presença do arquivo composer.json na raiz do seu projeto Magento e que o mesmo tenha os parâmetros semelhantes ao modelo JSON abaixo
 
-	{
-	  "minimum-stability": "dev",
-	  "prefer-stable": true,
-	  "license": [
-	    "proprietary"
-	  ],
-	  "repositories": [
-		{
-		  "type": "vcs",
-		  "url":  "git@bitbucket.org:team_mozg/magento-tawk.git"
-		},
-	    {
-	      "type": "composer",
-	      "url": "https://packages.firegento.com"
-	    }
-	  ],
-	  "extra": {
-	    "magento-root-dir": "./",
-	    "magento-deploystrategy": "copy",
-	    "magento-force": true
-	  }
-	}
+{
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "license": [
+    "proprietary"
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:team_mozg/magento-tawk.git"
+    },
+    {
+      "type": "composer",
+      "url": "https://packages.firegento.com"
+    }
+  ],
+  "extra": {
+    "magento-root-dir": "./",
+    "magento-deploystrategy": "copy",
+    "magento-force": true
+  }
+}
 
 Caso não exista o arquivo composer.json na raiz do projeto Magento, crie o mesmo adicionado o conteúdo acima
 
