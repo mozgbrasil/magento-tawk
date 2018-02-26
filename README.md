@@ -46,7 +46,7 @@ Certique se da presença do arquivo composer.json na raiz do seu projeto Magento
 	  "repositories": [
 	    {
 	      "type": "vcs",
-	      "url":  "git@bitbucket.org:team_mozg/magento-tawk.git"
+	      "url":  "git@github.com:mozgbrasil/magento-tawk.git"
 	    },
 	    {
 	      "type": "composer",
